@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2189541EB35D7800846871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2189531EB35D7800846871 /* AppDelegate.swift */; };
+		EF2189561EB35D7800846871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2189551EB35D7800846871 /* ViewController.swift */; };
+		EF2189591EB35D7800846871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2189571EB35D7800846871 /* Main.storyboard */; };
+		EF21895B1EB35D7800846871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF21895A1EB35D7800846871 /* Assets.xcassets */; };
+		EF21895E1EB35D7800846871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF21895C1EB35D7800846871 /* LaunchScreen.storyboard */; };
+		EF2189691EB35D7800846871 /* HanyangLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2189681EB35D7800846871 /* HanyangLibTests.swift */; };
+		EF2189741EB35D7800846871 /* HanyangLibUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2189731EB35D7800846871 /* HanyangLibUITests.swift */; };
+		EF2189821EB3960900846871 /* BoxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF2189811EB3960900846871 /* BoxView.xib */; };
+		EF2189841EB3961900846871 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2189831EB3961900846871 /* BoxView.swift */; };
+		EF5475171EB99C9E00DD63B2 /* SelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5475161EB99C9E00DD63B2 /* SelectionView.xib */; };
+		EF5475191EB99CB100DD63B2 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5475181EB99CB100DD63B2 /* SelectionView.swift */; };
+		EF8EF8521EB960DF00445F17 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8EF8511EB960DF00445F17 /* FirstViewController.swift */; };
+		EFE1227F1EB97B8F00B8F7A9 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE1227B1EB97B2B00B8F7A9 /* libxml2.2.tbd */; };
+		EFE1229D1EB980C900B8F7A9 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE122981EB980C900B8F7A9 /* CSS.swift */; };
+		EFE1229E1EB980C900B8F7A9 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE122991EB980C900B8F7A9 /* Kanna.swift */; };
+		EFE1229F1EB980C900B8F7A9 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1229A1EB980C900B8F7A9 /* libxmlHTMLDocument.swift */; };
+		EFE122A01EB980C900B8F7A9 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1229B1EB980C900B8F7A9 /* libxmlHTMLNode.swift */; };
+		EFE122A11EB980C900B8F7A9 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE1229C1EB980C900B8F7A9 /* libxmlParserOption.swift */; };
+		EFE122A61EB98A8100B8F7A9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE122A51EB98A8100B8F7A9 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF2189651EB35D7800846871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2189481EB35D7800846871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF21894F1EB35D7800846871;
+			remoteInfo = HanyangLib;
+		};
+		EF2189701EB35D7800846871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2189481EB35D7800846871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF21894F1EB35D7800846871;
+			remoteInfo = HanyangLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2189501EB35D7800846871 /* HanyangLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HanyangLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2189531EB35D7800846871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF2189551EB35D7800846871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF2189581EB35D7800846871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF21895A1EB35D7800846871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF21895D1EB35D7800846871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF21895F1EB35D7800846871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2189641EB35D7800846871 /* HanyangLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanyangLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2189681EB35D7800846871 /* HanyangLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanyangLibTests.swift; sourceTree = "<group>"; };
+		EF21896A1EB35D7800846871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF21896F1EB35D7800846871 /* HanyangLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanyangLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2189731EB35D7800846871 /* HanyangLibUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanyangLibUITests.swift; sourceTree = "<group>"; };
+		EF2189751EB35D7800846871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2189811EB3960900846871 /* BoxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoxView.xib; sourceTree = "<group>"; };
+		EF2189831EB3961900846871 /* BoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		EF5475161EB99C9E00DD63B2 /* SelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SelectionView.xib; path = Views/SelectionView.xib; sourceTree = "<group>"; };
+		EF5475181EB99CB100DD63B2 /* SelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectionView.swift; path = Views/SelectionView.swift; sourceTree = "<group>"; };
+		EF8EF8511EB960DF00445F17 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EFE1226A1EB9746A00B8F7A9 /* HanyangLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HanyangLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFE1227B1EB97B2B00B8F7A9 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		EFE1227D1EB97B3A00B8F7A9 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		EFE1228C1EB97FD800B8F7A9 /* libxml2-kanna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libxml2-kanna.h"; sourceTree = "<group>"; };
+		EFE1228D1EB97FD800B8F7A9 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		EFE122981EB980C900B8F7A9 /* CSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSS.swift; sourceTree = "<group>"; };
+		EFE122991EB980C900B8F7A9 /* Kanna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kanna.swift; sourceTree = "<group>"; };
+		EFE1229A1EB980C900B8F7A9 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		EFE1229B1EB980C900B8F7A9 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		EFE1229C1EB980C900B8F7A9 /* libxmlParserOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libxmlParserOption.swift; sourceTree = "<group>"; };
+		EFE122A51EB98A8100B8F7A9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF21894D1EB35D7800846871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE1227F1EB97B8F00B8F7A9 /* libxml2.2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2189611EB35D7800846871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21896C1EB35D7800846871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2189471EB35D7800846871 = {
+			isa = PBXGroup;
+			children = (
+				EF2189521EB35D7800846871 /* HanyangLib */,
+				EF2189671EB35D7800846871 /* HanyangLibTests */,
+				EF2189721EB35D7800846871 /* HanyangLibUITests */,
+				EF2189511EB35D7800846871 /* Products */,
+				EFE1226E1EB9788800B8F7A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2189511EB35D7800846871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2189501EB35D7800846871 /* HanyangLib.app */,
+				EF2189641EB35D7800846871 /* HanyangLibTests.xctest */,
+				EF21896F1EB35D7800846871 /* HanyangLibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2189521EB35D7800846871 /* HanyangLib */ = {
+			isa = PBXGroup;
+			children = (
+				EF5475151EB99C8300DD63B2 /* Views */,
+				EFE1228B1EB97FD800B8F7A9 /* Modules */,
+				EFE1228A1EB97E2B00B8F7A9 /* Kanna */,
+				EF2189531EB35D7800846871 /* AppDelegate.swift */,
+				EF2189551EB35D7800846871 /* ViewController.swift */,
+				EF2189571EB35D7800846871 /* Main.storyboard */,
+				EF21895A1EB35D7800846871 /* Assets.xcassets */,
+				EF21895C1EB35D7800846871 /* LaunchScreen.storyboard */,
+				EF21895F1EB35D7800846871 /* Info.plist */,
+				EF2189811EB3960900846871 /* BoxView.xib */,
+				EF2189831EB3961900846871 /* BoxView.swift */,
+				EF8EF8511EB960DF00445F17 /* FirstViewController.swift */,
+				EFE122A51EB98A8100B8F7A9 /* DetailViewController.swift */,
+				EFE1226A1EB9746A00B8F7A9 /* HanyangLib-Bridging-Header.h */,
+			);
+			path = HanyangLib;
+			sourceTree = "<group>";
+		};
+		EF2189671EB35D7800846871 /* HanyangLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2189681EB35D7800846871 /* HanyangLibTests.swift */,
+				EF21896A1EB35D7800846871 /* Info.plist */,
+			);
+			path = HanyangLibTests;
+			sourceTree = "<group>";
+		};
+		EF2189721EB35D7800846871 /* HanyangLibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2189731EB35D7800846871 /* HanyangLibUITests.swift */,
+				EF2189751EB35D7800846871 /* Info.plist */,
+			);
+			path = HanyangLibUITests;
+			sourceTree = "<group>";
+		};
+		EF5475151EB99C8300DD63B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF5475161EB99C9E00DD63B2 /* SelectionView.xib */,
+				EF5475181EB99CB100DD63B2 /* SelectionView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EFE1226E1EB9788800B8F7A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFE1227D1EB97B3A00B8F7A9 /* libxml2.tbd */,
+				EFE1227B1EB97B2B00B8F7A9 /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE1228A1EB97E2B00B8F7A9 /* Kanna */ = {
+			isa = PBXGroup;
+			children = (
+				EFE122981EB980C900B8F7A9 /* CSS.swift */,
+				EFE122991EB980C900B8F7A9 /* Kanna.swift */,
+				EFE1229A1EB980C900B8F7A9 /* libxmlHTMLDocument.swift */,
+				EFE1229B1EB980C900B8F7A9 /* libxmlHTMLNode.swift */,
+				EFE1229C1EB980C900B8F7A9 /* libxmlParserOption.swift */,
+			);
+			name = Kanna;
+			sourceTree = "<group>";
+		};
+		EFE1228B1EB97FD800B8F7A9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EFE1228C1EB97FD800B8F7A9 /* libxml2-kanna.h */,
+				EFE1228D1EB97FD800B8F7A9 /* module.modulemap */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF21894F1EB35D7800846871 /* HanyangLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2189781EB35D7800846871 /* Build configuration list for PBXNativeTarget "HanyangLib" */;
+			buildPhases = (
+				EF21894C1EB35D7800846871 /* Sources */,
+				EF21894D1EB35D7800846871 /* Frameworks */,
+				EF21894E1EB35D7800846871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HanyangLib;
+			productName = HanyangLib;
+			productReference = EF2189501EB35D7800846871 /* HanyangLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF2189631EB35D7800846871 /* HanyangLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF21897B1EB35D7800846871 /* Build configuration list for PBXNativeTarget "HanyangLibTests" */;
+			buildPhases = (
+				EF2189601EB35D7800846871 /* Sources */,
+				EF2189611EB35D7800846871 /* Frameworks */,
+				EF2189621EB35D7800846871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2189661EB35D7800846871 /* PBXTargetDependency */,
+			);
+			name = HanyangLibTests;
+			productName = HanyangLibTests;
+			productReference = EF2189641EB35D7800846871 /* HanyangLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF21896E1EB35D7800846871 /* HanyangLibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF21897E1EB35D7800846871 /* Build configuration list for PBXNativeTarget "HanyangLibUITests" */;
+			buildPhases = (
+				EF21896B1EB35D7800846871 /* Sources */,
+				EF21896C1EB35D7800846871 /* Frameworks */,
+				EF21896D1EB35D7800846871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2189711EB35D7800846871 /* PBXTargetDependency */,
+			);
+			name = HanyangLibUITests;
+			productName = HanyangLibUITests;
+			productReference = EF21896F1EB35D7800846871 /* HanyangLibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2189481EB35D7800846871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wooil;
+				TargetAttributes = {
+					EF21894F1EB35D7800846871 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2F75VXR68T;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					EF2189631EB35D7800846871 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2F75VXR68T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF21894F1EB35D7800846871;
+					};
+					EF21896E1EB35D7800846871 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2F75VXR68T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF21894F1EB35D7800846871;
+					};
+				};
+			};
+			buildConfigurationList = EF21894B1EB35D7800846871 /* Build configuration list for PBXProject "HanyangLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2189471EB35D7800846871;
+			productRefGroup = EF2189511EB35D7800846871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF21894F1EB35D7800846871 /* HanyangLib */,
+				EF2189631EB35D7800846871 /* HanyangLibTests */,
+				EF21896E1EB35D7800846871 /* HanyangLibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF21894E1EB35D7800846871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2189821EB3960900846871 /* BoxView.xib in Resources */,
+				EF21895E1EB35D7800846871 /* LaunchScreen.storyboard in Resources */,
+				EF5475171EB99C9E00DD63B2 /* SelectionView.xib in Resources */,
+				EF21895B1EB35D7800846871 /* Assets.xcassets in Resources */,
+				EF2189591EB35D7800846871 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2189621EB35D7800846871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21896D1EB35D7800846871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF21894C1EB35D7800846871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE122A61EB98A8100B8F7A9 /* DetailViewController.swift in Sources */,
+				EFE122A11EB980C900B8F7A9 /* libxmlParserOption.swift in Sources */,
+				EFE1229F1EB980C900B8F7A9 /* libxmlHTMLDocument.swift in Sources */,
+				EF8EF8521EB960DF00445F17 /* FirstViewController.swift in Sources */,
+				EF2189561EB35D7800846871 /* ViewController.swift in Sources */,
+				EFE1229D1EB980C900B8F7A9 /* CSS.swift in Sources */,
+				EF2189541EB35D7800846871 /* AppDelegate.swift in Sources */,
+				EF2189841EB3961900846871 /* BoxView.swift in Sources */,
+				EFE122A01EB980C900B8F7A9 /* libxmlHTMLNode.swift in Sources */,
+				EFE1229E1EB980C900B8F7A9 /* Kanna.swift in Sources */,
+				EF5475191EB99CB100DD63B2 /* SelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2189601EB35D7800846871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2189691EB35D7800846871 /* HanyangLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF21896B1EB35D7800846871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2189741EB35D7800846871 /* HanyangLibUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF2189661EB35D7800846871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF21894F1EB35D7800846871 /* HanyangLib */;
+			targetProxy = EF2189651EB35D7800846871 /* PBXContainerItemProxy */;
+		};
+		EF2189711EB35D7800846871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF21894F1EB35D7800846871 /* HanyangLib */;
+			targetProxy = EF2189701EB35D7800846871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF2189571EB35D7800846871 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF2189581EB35D7800846871 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF21895C1EB35D7800846871 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF21895D1EB35D7800846871 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF2189761EB35D7800846871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF2189771EB35D7800846871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2189791EB35D7800846871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2F75VXR68T;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = HanyangLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooil.HanyangLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/HanyangLib/Modules";
+				SWIFT_OBJC_BRIDGING_HEADER = "HanyangLib/HanyangLib-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF21897A1EB35D7800846871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2F75VXR68T;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = HanyangLib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooil.HanyangLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/HanyangLib/Modules";
+				SWIFT_OBJC_BRIDGING_HEADER = "HanyangLib/HanyangLib-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF21897C1EB35D7800846871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2F75VXR68T;
+				INFOPLIST_FILE = HanyangLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooil.HanyangLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanyangLib.app/HanyangLib";
+			};
+			name = Debug;
+		};
+		EF21897D1EB35D7800846871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2F75VXR68T;
+				INFOPLIST_FILE = HanyangLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooil.HanyangLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HanyangLib.app/HanyangLib";
+			};
+			name = Release;
+		};
+		EF21897F1EB35D7800846871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2F75VXR68T;
+				INFOPLIST_FILE = HanyangLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooil.HanyangLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HanyangLib;
+			};
+			name = Debug;
+		};
+		EF2189801EB35D7800846871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2F75VXR68T;
+				INFOPLIST_FILE = HanyangLibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wooil.HanyangLibUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HanyangLib;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF21894B1EB35D7800846871 /* Build configuration list for PBXProject "HanyangLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2189761EB35D7800846871 /* Debug */,
+				EF2189771EB35D7800846871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2189781EB35D7800846871 /* Build configuration list for PBXNativeTarget "HanyangLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2189791EB35D7800846871 /* Debug */,
+				EF21897A1EB35D7800846871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF21897B1EB35D7800846871 /* Build configuration list for PBXNativeTarget "HanyangLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF21897C1EB35D7800846871 /* Debug */,
+				EF21897D1EB35D7800846871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF21897E1EB35D7800846871 /* Build configuration list for PBXNativeTarget "HanyangLibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF21897F1EB35D7800846871 /* Debug */,
+				EF2189801EB35D7800846871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2189481EB35D7800846871 /* Project object */;
+}
